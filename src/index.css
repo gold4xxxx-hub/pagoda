@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap');
 
 :root {
-  --forest: #183b30;
-  --lime: #c9e678;
-  --coral: #df795f;
-  --ink: #243329;
-  --paper: #f6f8f3;
-  --line: #e0e6dd;
+  --forest: #102f29;
+  --forest-strong: #091f1c;
+  --forest-soft: #1e443d;
+  --lime: #d9f16d;
+  --lime-strong: #cae85d;
+  --gold: #d9b46f;
+  --gold-soft: #f6ead2;
+  --coral: #e58a6c;
+  --coral-soft: #f7e7e0;
+  --ink: #1a2c2a;
+  --paper: #f2f2ee;
+  --paper-strong: #e8e5df;
+  --panel: #fcfcfa;
+  --line: #ddd9d2;
+  --shadow: rgba(15, 29, 28, 0.13);
   --sans: 'DM Sans', 'Segoe UI', sans-serif;
   --display: 'Playfair Display', Georgia, serif;
   --mono: 'DM Mono', 'SFMono-Regular', Consolas, monospace;
@@ -34,6 +43,10 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(217, 177, 111, 0.12), transparent 22%),
+    radial-gradient(circle at top right, rgba(138, 160, 133, 0.12), transparent 26%),
+    linear-gradient(180deg, #f4f3f0 0%, #eef2ee 100%);
 }
 
 button,
