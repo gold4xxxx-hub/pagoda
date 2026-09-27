@@ -367,7 +367,7 @@ function App() {
                   <label htmlFor="referrer">Referrer wallet address</label>
                   <input id="referrer" value={referrerInput} onChange={(event) => setReferrerInput(event.target.value)} placeholder="0x..." spellCheck={false} autoComplete="off" />
                   <div className="fee-line"><span>Registration fee</span><strong>{feeText} {tokenSymbol}</strong></div>
-                  <button className="button button-green full-button" type="submit" disabled={!active || busy !== ''}>{busy === 'register' ? <LoaderCircle size={16} className="spin" /> : <ArrowUpRight size={16} />}Register membership</button>
+                  <button className="button button-green full-button" type="submit" disabled={!active || busy !== ''}>{busy === 'register' ? <LoaderCircle size={16} className="spin" /> : <ArrowUpRight size={16} />}<span className="button-label-strong">Register</span></button>
                 </form>
               ) : (
                 <div className="renew-block">

@@ -658,6 +658,14 @@
 .full-button {
   min-height: 38px;
   width: 100%;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.button-label-strong {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .renew-block {
